@@ -5,15 +5,16 @@ const TodoForm = ({addTodo}) => {
   let input;
 
   return (
-    <div>
-      <input ref={node => {
+    <div className="form-styles">
+      <input className="input-styles" placeholder="Add your to-do here!" ref={node => {
         input = node;
       }} />
+      <br/><br/>
       <button onClick={() => {
         addTodo(input.value);
         input.value = '';
       }}>
-        +
+        Click Me To Add Your To-Do
       </button>
     </div>
   );

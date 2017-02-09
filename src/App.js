@@ -39,7 +39,7 @@ constructor(props){
   render(){
     // Render JSX
     return (
-      <div>
+      <div className="app-style">
         <Title />
         <TodoForm addTodo={this.addTodo.bind(this)}/>
         <TodoList 
