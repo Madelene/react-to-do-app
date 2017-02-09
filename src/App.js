@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 import TodoForm from './js/components/TodoForm';
-import Todo from './js/components/Todo';
 import TodoList from './js/components/TodoList';
 import Title from './js/components/Title';
 
