@@ -9,12 +9,12 @@ const TodoForm = ({addTodo}) => {
       <input className="input-styles" placeholder="Add your to-do here!" ref={node => {
         input = node;
       }} />
-      <br/><br/>
-      <button onClick={() => {
+   
+      <button className="button-styles" onClick={() => {
         addTodo(input.value);
         input.value = '';
       }}>
-        Click Me To Add Your To-Do
+        Click Me To Add Your List
       </button>
     </div>
   );

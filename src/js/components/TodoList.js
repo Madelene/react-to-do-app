@@ -13,7 +13,7 @@ const TodoList = ({todos, remove}) => {
   const todoNode = todos.map((todo) => {
     return (<EachTodo todo={todo} key={todo.id} remove={remove}/>)
   });
-  return (<ul>{todoNode}</ul>);
+  return (<ul className="todos">{todoNode}</ul>);
 }
 
 export default TodoList;

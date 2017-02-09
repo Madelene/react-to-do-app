@@ -37,13 +37,18 @@ body {
 }
 
 .todo-styles {
-  margin-left: 100px;
-  padding-top: 5em;
+  margin-left: 500px;
+  padding-top: 25em;
 }
 
 .todo-styles h1 {
   margin-top: 0;
   padding-top: 0;
+  font-style: normal;
+  font-family: 'Georgia';
+  -webkit-text-stroke: 1.5px #8C489F;
+  color: white;
+  font-size: 50px;
 }
 
 .form-styles {
@@ -51,13 +56,25 @@ body {
 }
 
 .app-style {
-  color: #FF69B4;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
   height: 100vh;
-  background-image:url('http://wallpoper.com/images/00/30/95/48/polka-dots_00309548.jpg');
+  background-image:url('http://data.iwastesomuchtime.com/542012025045rre.gif');
 }
 
 .input-styles {
+  margin-left: 400px;
   height: 20px;
   width: 300px;
   font-size: 14px;
+}
+
+.button-styles{
+  color: purple;
+  margin-left: 33px;
+}
+
+.todos {
+  margin-left: 500px;
 }
