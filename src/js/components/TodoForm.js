@@ -14,7 +14,7 @@ const TodoForm = ({addTodo}) => {
         addTodo(input.value);
         input.value = '';
       }}>
-        Click Me To Add Your List
+        Click Me To Add
       </button>
     </div>
   );
